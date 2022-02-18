@@ -92,10 +92,13 @@ h3 {
         * 리턴
           1. true
           2. false
-       1. ![](2022-02-18-16-49-45.png)
+       
     * **5.  &#95;classList&#95;.item(index)**
       * 인덱스형식으로 접근한다
       * 위 방법 말고 &#95;classList&#95;[index]라고 적어도 된다
+    
+    * **6. 클래스리스트 value(), keys**
+      * ![](2022-02-18-16-49-45.png) 
 
 Hidden의 활용법
 CSS 조작
@@ -145,3 +148,17 @@ CSS 조작
 
         1. newDiv.innerText ="가 나 다 라"
 ```
+
+## 직접 눈으로 보기
+1. 깃허브로 만든 사이트에 들어간다
+2. F12 클릭
+3. 콘솔에 expTokenList() 쳐보기
+   * expTokenList("one") : 클래스 리스트 add
+   * expTokenList("two") : 클래스 리스트 remove
+   * expTokenList("three") : 클래스 리스트 toggle
+   * expTokenList("four") : 클래스 리스트 keys, value
+   * expTokenList("five") : 클래스 리스트 createElement
+
+[실행해보자](https://dogguyman.github.io/JS_Element_Doc_ForMe/)
+
+![](2022-02-18-18-15-05.png)
